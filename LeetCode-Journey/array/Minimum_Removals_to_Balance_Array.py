@@ -1,3 +1,4 @@
+#After sorting, the largest balanced subarray can be found using a sliding window.
 def minRemovals(nums, k):
     nums.sort()
     n = len(nums)
