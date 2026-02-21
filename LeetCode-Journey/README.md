@@ -1,85 +1,108 @@
 <div align="center">
 
-# 🧠 LeetCode Journey
-### *One problem at a time. One day at a time.*
+# 👨‍💻 Parth Sharma's LeetCode Journey
 
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Parths-29/LeetCode?color=00b8a9&label=commits&style=flat-square)](https://github.com/Parths-29/LeetCode)
-[![Problems Solved](https://img.shields.io/badge/problems%20solved-growing%20daily-ff6b6b?style=flat-square)](https://github.com/Parths-29/LeetCode)
-[![Language](https://img.shields.io/badge/language-Java%20%7C%20Python%20%7C%20C%2B%2B-f9ca24?style=flat-square)](#)
+> *"The grind doesn't lie. 193 problems in and just getting started."*
+
+[![LeetCode](https://img.shields.io/badge/LeetCode-Procriminal29-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/Procriminal29/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Parth%20Sharma-0077b5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/parth-sharma-/)
+[![GitHub](https://img.shields.io/badge/GitHub-Parths--29-181717?style=for-the-badge&logo=github)](https://github.com/Parths-29)
 
 </div>
 
 ---
 
-## 👋 Hey there!
+## 🙋‍♂️ Hi, I'm Parth!
 
-Welcome to my LeetCode grind repository — this is where I document my **problem-solving journey**, one solution at a time.
+I'm a developer on a mission to get better at problem-solving — not just to pass interviews, but because I genuinely enjoy the puzzle. This repository is my public commitment to that journey. Every folder here represents hours of thinking, debugging, and that sweet moment when it finally clicks.
 
-I'm **Parth**, a developer who believes that consistent practice is the real secret sauce. This repo isn't just a collection of accepted submissions — it's a honest record of how I think, approach, and eventually crack problems ranging from *"wait, this is easy?"* to *"how does anyone figure this out??"*
+No shortcuts. No copy-paste solutions. Just real progress, one commit at a time.
 
 ---
 
-## 🗂️ Repository Structure
+## 📊 My LeetCode Stats *(as of Feb 2026)*
+
+<div align="center">
+
+| 🏆 Contest Rating | 🌍 Global Rank | 📅 Contests Attended | 🥇 Top % |
+|:-----------------:|:--------------:|:--------------------:|:--------:|
+| **1,498** | **371,185** / 839,080 | **2** | **Top 44.71%** |
+
+</div>
+
+### Problems Solved: **193 / 3846**
 
 ```
-LeetCode/
-└── LeetCode-Journey/
-    ├── Arrays & Hashing/
-    ├── Two Pointers/
-    ├── Sliding Window/
-    ├── Stack/
-    ├── Binary Search/
-    ├── Linked List/
-    ├── Trees/
-    ├── Graphs/
-    ├── Dynamic Programming/
-    └── ...more as I grow 🌱
+🟢 Easy    ████████████████░░░░░   85 / 927
+🟡 Medium  ████████████████░░░░░   86 / 2010
+🔴 Hard    █████░░░░░░░░░░░░░░░░   22 / 909
 ```
 
-Each solution file includes:
-- ✅ The approach I used
-- 🧩 Time & Space complexity
-- 💡 Any key insight that unlocked the problem
+> 🏅 **Achievement Unlocked:** 50 Days Badge 2025 — consistency is the real flex.
 
 ---
 
-## 📈 My Progress
+## 🗂️ Repo Structure
 
-| Difficulty | Solved |
-|:----------:|:------:|
-| 🟢 Easy    | growing... |
-| 🟡 Medium  | grinding... |
-| 🔴 Hard    | attempting! |
+```
+LeetCode-Journey/
+│
+├── 📁 array/                  # Foundation of everything
+├── 📁 string/                 # Manipulation & pattern tricks
+├── 📁 hash/                   # O(1) lookups saving the day
+├── 📁 Dynamic Programming/    # The boss level
+├── 📁 Greedy/                 # Sometimes simple wins
+└── 📁 Bit Manipulation/       # Because why not go low-level
+```
 
-> *"The journey of a thousand miles begins with a single step."*  
-> And for me, that first step was probably a two-sum. 😄
-
----
-
-## 🧩 What You'll Find Here
-
-- **Clean, readable solutions** — not just code that passes, but code I'd be proud to show in an interview
-- **Multiple approaches** where applicable — brute force first, then optimized
-- **Honest commits** — including the days I struggled and revised
+Each solution comes with my thought process — not just the final answer, but *how* I got there. Wrong turns included sometimes. 😅
 
 ---
 
-## 🔥 Why I'm Doing This
+## 💡 How I Approach Problems
 
-I started this journey to get better at **problem-solving and algorithmic thinking**. Posting solutions publicly keeps me accountable and hopefully helps someone else who's stuck on the same problem at 2am.
+```
+1. Read carefully (twice, minimum)
+2. Think brute force first — get it working
+3. Look for patterns — hashmap? sliding window? dp?
+4. Optimize → clean up → commit
+5. If stuck 30+ min, take hints — not full solutions
+```
 
-If one of my solutions helped you understand something — that makes the whole thing worth it. 🙌
+---
+
+## 🎯 Current Goals
+
+- [ ] Strengthen Dynamic Programming intuition
+- [ ] Push Hard problem count past **30**
+- [ ] Improve Contest Rating to **1,600+**
+- [ ] Keep the streak alive 🔥
+
+---
+
+## 📁 Topics Covered
+
+| Topic | Status |
+|-------|--------|
+| Arrays | ✅ Active |
+| Strings | ✅ Active |
+| Hash Maps | ✅ Active |
+| Dynamic Programming | ✅ Active |
+| Greedy | ✅ Active |
+| Bit Manipulation | ✅ Active |
+| Trees / Graphs | 🔜 Coming Soon |
+| Two Pointers | 🔜 Coming Soon |
 
 ---
 
 ## 🤝 Let's Connect
 
-If you're on a similar journey, let's grow together!
+If you're also grinding LeetCode, prepping for interviews, or just like talking about code — reach out! Always happy to discuss approaches, swap notes, or just vibe about how satisfying it is to finally crack a hard problem.
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-connect-0077b5?style=for-the-badge&logo=linkedin)](https://linkedin.com)
-[![LeetCode](https://img.shields.io/badge/LeetCode-profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com)
+[![LinkedIn](https://img.shields.io/badge/Let's%20connect%20on-LinkedIn-0077b5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/parth-sharma-/)
+[![LeetCode Profile](https://img.shields.io/badge/Check%20my-LeetCode%20Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/Procriminal29/)
 
 </div>
 
@@ -87,8 +110,8 @@ If you're on a similar journey, let's grow together!
 
 <div align="center">
 
-*Keep grinding. The best time to start was yesterday. The second best time is now.* 💪
+*Stats update as I solve more. Check back often — this page only goes up from here.* 📈
 
-⭐ **Star this repo** if it helped you — it means a lot!
+⭐ If any solution helped you — leave a star. It genuinely motivates me to keep going!
 
 </div>
