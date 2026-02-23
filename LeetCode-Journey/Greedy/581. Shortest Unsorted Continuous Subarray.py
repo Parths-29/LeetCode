@@ -32,8 +32,6 @@ def findUnsortedSubarray(nums):
         return 0
 
     return right - left + 1
-
-
 # ====== INPUT / OUTPUT ======
 nums = list(map(int, input("Enter numbers: ").split()))
 print("Length of shortest unsorted subarray:", findUnsortedSubarray(nums))
