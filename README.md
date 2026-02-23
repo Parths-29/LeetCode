@@ -17,7 +17,7 @@ I'm a developer on a mission to get better at problem-solving — not just to pa
 No shortcuts. No copy-paste solutions. Just real progress, one commit at a time.
 
 ---
-### Problems Solved: **193 / 3846**
+### Problems Solved: **201 / 3846**
 
 ```
 🟢 Easy    ████████████████░░░░░   85 / 927
