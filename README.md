@@ -2,8 +2,6 @@
 
 # 👨‍💻 Parth Sharma's LeetCode Journey
 
-> *"The grind doesn't lie. 193 problems in and just getting started."*
-
 [![LeetCode](https://img.shields.io/badge/LeetCode-Procriminal29-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/Procriminal29/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Parth%20Sharma-0077b5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/parth-sharma-/)
 [![GitHub](https://img.shields.io/badge/GitHub-Parths--29-181717?style=for-the-badge&logo=github)](https://github.com/Parths-29)
@@ -19,17 +17,6 @@ I'm a developer on a mission to get better at problem-solving — not just to pa
 No shortcuts. No copy-paste solutions. Just real progress, one commit at a time.
 
 ---
-
-## 📊 My LeetCode Stats *(as of Feb 2026)*
-
-<div align="center">
-
-| 🏆 Contest Rating | 🌍 Global Rank | 📅 Contests Attended | 🥇 Top % |
-|:-----------------:|:--------------:|:--------------------:|:--------:|
-| **1,498** | **371,185** / 839,080 | **2** | **Top 44.71%** |
-
-</div>
-
 ### Problems Solved: **193 / 3846**
 
 ```
