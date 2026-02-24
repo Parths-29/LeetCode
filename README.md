@@ -34,12 +34,12 @@ No shortcuts. No copy-paste solutions. Just real progress, one commit at a time.
 ```
 LeetCode-Journey/
 │
-├── 📁 array/                  # Foundation of everything
-├── 📁 string/                 # Manipulation & pattern tricks
-├── 📁 hash/                   # O(1) lookups saving the day
-├── 📁 Dynamic Programming/    # The boss level
-├── 📁 Greedy/                 # Sometimes simple wins
-└── 📁 Bit Manipulation/       # Because why not go low-level
+├── 📁 array/                 
+├── 📁 string/                 
+├── 📁 hash/                   
+├── 📁 Dynamic Programming/    
+├── 📁 Greedy/                 
+└── 📁 Bit Manipulation/       
 ```
 
 Each solution comes with my thought process — not just the final answer, but *how* I got there. Wrong turns included sometimes. 😅
@@ -77,7 +77,7 @@ Each solution comes with my thought process — not just the final answer, but *
 | Dynamic Programming | ✅ Active |
 | Greedy | ✅ Active |
 | Bit Manipulation | ✅ Active |
-| Trees / Graphs | 🔜 Coming Soon |
+| Trees / Graphs |  ✅ Active |
 | Two Pointers | 🔜 Coming Soon |
 
 ---
