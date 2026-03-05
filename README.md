@@ -88,7 +88,7 @@ If you're also grinding LeetCode, prepping for interviews, or just like talking 
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/Let's%20connect%20on-LinkedIn-0077b5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/parth-sharma-/)
+[![LinkedIn](https://img.shields.io/badge/Let's%20connect%20on-LinkedIn-0077b5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/parth-sharma-16469a293/)
 [![LeetCode Profile](https://img.shields.io/badge/Check%20my-LeetCode%20Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/Procriminal29/)
 
 </div>
