@@ -1,59 +1,57 @@
 '''
-Question: 319. Bulb Switcher (Medium)
-There are n bulbs that are initially off. You first turn on all the bulbs, then you turn off every second bulb.
-On the third round, you toggle every third bulb (turning on if it's off or turning off if it's on). For the ith round, you toggle every i bulb. For the nth round, you only toggle the last bulb.
-Return the number of bulbs that are on after n rounds.
+Question: 326. Power of Three (Easy)
+Given an integer n, return true if it is a power of three. Otherwise, return false.
+An integer n is a power of three, if there exists an integer x such that n == 3^x.
 
 Example 1:
-Input: n = 3
-Output: 1
-Explanation: 
-At first, the three bulbs are [off, off, off].
-After first round, the three bulbs are [on, on, on].
-After second round, the three bulbs are [on, off, on].
-After third round, the three bulbs are [on, off, off]. 
-So you should return 1, because there is only one bulb is on.
+Input: n = 27
+Output: true
+Explanation: 27 = 3^3
 
 Example 2:
 Input: n = 0
-Output: 0
+Output: false
+Explanation: There is no x where 3^x = 0.
+
+Example 3:
+Input: n = -1
+Output: false
+Explanation: There is no x where 3^x = (-1).
 
 ---
-My Approach (Math / Number Theory):
-1. A bulb at index `i` is toggled once for every factor it has.
-2. A bulb will remain ON at the end only if it was toggled an ODD number of times.
-3. Factors mathematically come in pairs (e.g., 2 * 6 = 12). The ONLY numbers that have an odd number of factors are perfect squares (e.g., 6 * 6 = 36, where the factor 6 only counts once).
-4. Therefore, the bulbs that remain ON are exactly the bulbs whose indices are perfect squares (1, 4, 9, 16, 25...).
-5. The number of perfect squares less than or equal to `n` is exactly the square root of `n`, rounded down to the nearest integer.
+My Approach (Math / Magic Number):
+1. The maximum value of a 32-bit signed integer is 2^31 - 1 (2147483647).
+2. The largest power of 3 that is strictly less than this maximum is 3^19, which equals 1162261467.
+3. Since 3 is a prime number, the only divisors of 3^19 are other powers of 3.
+4. If n is positive and perfectly divides 1162261467 (i.e., modulo is 0), then n MUST be a power of 3.
 
-Time Complexity: O(1) as calculating the square root is a constant time mathematical operation.
+Time Complexity: O(1) as it requires a single mathematical modulo operation.
 Space Complexity: O(1) auxiliary space.
 '''
 
 class Solution:
-    def bulbSwitch(self, n: int) -> int:
-        # The number of perfect squares up to n is simply floor(sqrt(n))
-        return int(n ** 0.5)
+    def isPowerOfThree(self, n: int) -> bool:
+        # Check if positive and a divisor of the max 32-bit power of 3
+        if n <= 0:
+            return False
+        return 1162261467 % n == 0
 
 # --- Interactive Driver Code ---
 if __name__ == "__main__":
     solution = Solution()
     
-    print("--- 319. Bulb Switcher Interactive Runner ---")
+    print("--- 326. Power of Three Interactive Runner ---")
     try:
-        n_input = input("Enter the number of bulbs n (e.g., 3): ").strip()
+        n_input = input("Enter the integer n (e.g., 27): ").strip()
         
         # Safely evaluate input
         n = int(n_input)
-        
-        if n < 0:
-            raise ValueError("Number of bulbs cannot be negative.")
             
         # Calling the function
-        result = solution.bulbSwitch(n)
+        result = solution.isPowerOfThree(n)
         print(f"\nOutput: {result}")
         
-    except ValueError as ve:
-        print(f"Error parsing input. Details: {ve}")
+    except ValueError:
+        print("Error: Input must be a valid integer.")
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
