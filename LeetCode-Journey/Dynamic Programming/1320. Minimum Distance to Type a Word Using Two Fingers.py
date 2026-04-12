@@ -1,4 +1,4 @@
-    '''
+'''
 Question: 1320. Minimum Distance to Type a Word Using Two Fingers (Hard)
 You have a keyboard layout of 26 English lowercase letters in a 5x6 grid.
 Given a string word, return the minimum total distance to type such string using only two fingers.
