@@ -14,10 +14,6 @@
 
 I'm a developer on a mission to get better at problem-solving — not just to pass interviews, but because I genuinely enjoy the puzzle. This repository is my public commitment to that journey. Every folder here represents hours of thinking, debugging, and that sweet moment when it finally clicks.
 
-No shortcuts. No copy-paste solutions. Just real progress, one commit at a time.
-
-
-> 🏅 **Achievement Unlocked:** 50 Days Badge 2025 — consistency is the real flex.
 
 ---
 
