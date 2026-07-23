@@ -16,14 +16,6 @@ I'm a developer on a mission to get better at problem-solving — not just to pa
 
 No shortcuts. No copy-paste solutions. Just real progress, one commit at a time.
 
----
-### Problems Solved: **201 / 3846**
-
-```
-🟢 Easy    ████████████████░░░░░   85 / 927
-🟡 Medium  ████████████████░░░░░   86 / 2010
-🔴 Hard    █████░░░░░░░░░░░░░░░░   22 / 909
-```
 
 > 🏅 **Achievement Unlocked:** 50 Days Badge 2025 — consistency is the real flex.
 
